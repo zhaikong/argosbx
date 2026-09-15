@@ -7,17 +7,13 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "start": "node index.js",
-    "dev": "node index.js"
+    "start": "node init && node index.js",
+    "dev": "node init && node index.js"
   },
   "engines": {
     "node": ">=14"
   },
   "dependencies": {
-  "ws": "^8.0.0"
+    "ws": "^8.0.0"
   }
 }
-  
-
-
-
